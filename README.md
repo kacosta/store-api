@@ -1,31 +1,29 @@
-# Ruby on Rails & Postgres (ruby-rails-postgres)
+# README
+This README would normally document whatever steps are necessary to get the
+application up and running.
 
-This is a personal clean initial setup for template [Ruby on Rails & Postgresql](https://github.com/devcontainers/templates/tree/main/src/ruby-rails-postgres).
+Things you may want to cover:
 
-The idea for this repo is to keep this up-to-date with my personal customizations like:
- - New services
- - VS Code plugins
- - Custom configurations
-   - Maybe adding node for front-end development
+* Ruby version
 
- ## Starting a new project
- This repo will not be used as a template to start new project, it is used to keep tracking personal configuration added while I learn.
+* System dependencies
 
- To start a new project:
-  - Open VSCode (Locally) or start a new blank template Codespace
-  - Using the VSCode DevContainer wizard (This guide: [Using Predefined Dev Container](https://docs.github.com/en/codespaces/setting-up-your-project-for-codespaces/adding-a-dev-container-configuration/introduction-to-dev-containers#using-a-predefined-dev-container-configuration))
-    - Use `Shift + Command + P`
-    - Type `"add dev"`. Click Codespaces: `Add Dev Container Configuration Files`
-    - Select `Create a new configuration`
-    - Search for `Ruby on Rails & Postgres` template
-    - For the moment, do no add new features.
-    - Restart the container (VSCode message will pop-up)
- - After restarting create a new repo and push initial commit.
- - Modify files on `.devcontainer` with the custom configuration from this repo into new project.
- - Commit & Push new changes.
- - Create a new Rails Project & Happy Coding
+* Configuration
 
- ## References:
-   - DevContainer Images List: https://containers.dev/templates
-   - Ruby on Rails & Postgres Image: https://github.com/devcontainers/templates/tree/main/src/ruby-rails-postgres
-   - Intro to DevContainers: https://docs.github.com/en/codespaces/setting-up-your-project-for-codespaces/adding-a-dev-container-configuration/introduction-to-dev-containers
+* Database creation:
+
+* Database initialization
+
+* How to run the test suite
+
+* Services (job queues, cache servers, search engines, etc.)
+
+* Deployment instructions
+
+* ...
+
+## Set up
+Create project: `rails new . --name=store_api -d postgresql --api`
+Database:
+ - Add `username` and `password` for development and test enviroments on `config/database.yml`
+ - Create Dev&Test Database: `bin/rails db:prepare`
