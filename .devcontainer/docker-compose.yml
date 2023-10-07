@@ -8,6 +8,8 @@ services:
 
     volumes:
       - ../..:/workspaces:cached
+      # Uncomment to use same local git configuration in container
+      - ~/.ssh:/home/vscode/.ssh:ro 
 
     # Overrides default command so things don't shut down after the process ends.
     command: sleep infinity
