@@ -50,4 +50,3 @@ end
 
 gem 'jsonapi-resources'
 gem 'rack-cors'
-
