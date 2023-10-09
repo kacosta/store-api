@@ -101,6 +101,10 @@ GEM
       rdoc
       reline (>= 0.3.8)
     json (2.6.3)
+    jsonapi-resources (0.10.7)
+      activerecord (>= 4.1)
+      concurrent-ruby
+      railties (>= 4.1)
     language_server-protocol (3.17.0.3)
     loofah (2.21.3)
       crass (~> 1.0.2)
